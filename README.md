@@ -3,3 +3,4 @@ Implementation of advanced algorithms in Python. Every file contains one or more
 - Topological Sort
 - Merge Sort
 - Dijkstra’s Algorithm
+- Quick Sort
