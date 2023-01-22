@@ -1,11 +1,11 @@
 # Quick Sort by Alessia Sarritzu
 import unittest
 
-def quickSort(array, low, high):
+def quick_sort(array, low, high):
     if low < high:
         pi = partition(array, low, high)
-        quickSort(array, low, pi - 1)
-        quickSort(array, pi + 1, high)
+        quick_sort(array, low, pi - 1)
+        quick_sort(array, pi + 1, high)
 
 
 def partition(array, low, high):
@@ -23,12 +23,12 @@ def partition(array, low, high):
 class Test(unittest.TestCase):
     def test_numeric(self):
         arr = [3, 82, 15, 1, 40, 37, 63]
-        quickSort(arr, 0, len(arr)-1)
+        quick_sort(arr, 0, len(arr)-1)
         self.assertEqual(arr, [1, 3, 15, 37, 40, 63, 82])
 
     def test_alphabetic(self):
         arr = ['z', 'o', 'p', 'a', 'c', 'h']
-        quickSort(arr, 0, len(arr) - 1)
+        quick_sort(arr, 0, len(arr) - 1)
         self.assertEqual(arr, ['a', 'c', 'h', 'o', 'p', 'z'])
 
 
