@@ -4,3 +4,4 @@ Implementation of advanced algorithms in Python. Every file contains one or more
 - Merge Sort
 - Dijkstra’s Algorithm
 - Quick Sort
+- Floyd-Warshall's Algorithm
