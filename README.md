@@ -5,3 +5,4 @@ Implementation of advanced algorithms in Python. Every file contains one or more
 - Dijkstra’s Algorithm
 - Quick Sort
 - Floyd-Warshall's Algorithm
+- Prim's Algorithm
